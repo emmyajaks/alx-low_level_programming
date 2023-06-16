@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * main - Program that prints the alphabet without q and e. 
+ * main - Prints the alphabet without q and e.
  *
  * Return: Always 0 (Success)
  */
@@ -21,4 +21,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
