@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * print_array - a function that prints n elements of an array of integers
+ * print_array - function that prints n elements of an array of integers
  * @a: This is the input array
- * @n: This is the lenght of array
+ * @n: This is the lenght of the array
  *
  */
 
@@ -16,7 +16,7 @@ void print_array(int *a, int n)
 		printf("%d", a[index_of_array]);
 		if (index_of_array != (n - 1))
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	putchar('\n');
